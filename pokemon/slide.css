@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+    width: 30%;
+    height: 20%;
+}
+
+#titulo{
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+    margin-top: 1px;
+}
+#Error{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.caja 
+{
+    background-color: white;
+}
+.centrado
+{
+    margin: auto;
+    width: 70%;
+    border: 3px solid goldenrod;
+    padding: 5px;
+    text-align: center;  
+    overflow:auto;     
+}
+
+
+
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 70%;
+    height: 400px;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 1px;
+    background: linear-gradient(to bottom, rgba(224, 223, 211, 1) 0%, rgba(224, 223, 211, 1) 1%, rgba(250, 241, 77, 1) 42%, rgba(214, 161, 26, 1) 73%, rgba(112, 86, 21, 1) 100%);
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(116, 110, 110, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 25px;
+    padding-left: 40%;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    padding-top: 10%;
+    padding-left: 15%;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
